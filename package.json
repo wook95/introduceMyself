@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/wook95/introduceMyself#readme",
   "dependencies": {
-    "netlify-cli": "^6.3.5"
+    "netlify-cli": "^6.3.5",
+    "webpack": "^5.50.0"
   }
 }
