@@ -1,0 +1,187 @@
+/* common */
+@font-face {
+  font-family: "Wemakeprice-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body__container {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+body {
+  margin-top: 130px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(23, 22, 22);
+}
+header a:visited {
+  color: rgb(23, 22, 22);
+}
+header a:hover {
+  color: #fff;
+}
+
+header .inner {
+  display: flex;
+  background-color: tomato;
+  justify-content: space-between;
+  margin: -20px 50px 50px 50px;
+  padding: 50px 50px 30px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.93;
+  border-radius: 20px;
+  font-weight: 900;
+}
+.inner .inner__right {
+  display: flex;
+}
+
+.inner .inner__right a {
+  padding: 0 13px;
+  box-sizing: border-box;
+  display: block;
+}
+.inner .inner__right li:last-child a {
+  padding: 0 0 0 13px;
+}
+
+section.visual {
+  margin: 70px;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 100px;
+  letter-spacing: 1px;
+  min-height: calc(100vh - 320px);
+}
+
+/* info2 */
+
+section.info2 {
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  height: 500px;
+  width: 700px;
+  margin: -500px 0 0 -350px;
+}
+
+.image--box {
+  margin: 20px 0;
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.image--box img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -119px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.25s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 10px 2px;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgb(85, 85, 85);
+  border: none;
+}
+.dot:hover {
+  background-color: #b8b8b8;
+}
+
+/* Fading animation */
+.fades {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* footer*/
+
+footer {
+  height: 20px;
+}
+footer .inner {
+  margin: 0 50px;
+  font-size: 16px;
+  color: #ccc;
+}
