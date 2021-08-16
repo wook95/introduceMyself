@@ -194,3 +194,32 @@ footer .inner {
   font-size: 16px;
   color: #ccc;
 }
+
+@media (max-width: 768px) {
+  section.visual {
+    font-weight: 600;
+    font-size: 50px;
+  }
+}
+@media (max-width: 550px) {
+  header .inner {
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  section.visual {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+  }
+  footer .inner {
+    font-size: 13px;
+  }
+
+  .image--box img {
+    width: 270px;
+  }
+  .info p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
