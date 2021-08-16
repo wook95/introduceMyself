@@ -1,0 +1,22 @@
+{
+  "name": "introducemyself",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wook95/introduceMyself.git"
+  },
+  "author": "wook95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wook95/introduceMyself/issues"
+  },
+  "homepage": "https://github.com/wook95/introduceMyself#readme",
+  "dependencies": {
+    "netlify-cli": "^6.3.5"
+  }
+}
